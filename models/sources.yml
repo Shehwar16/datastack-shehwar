@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: raw
+    database: MODERN_DATASTACK_DB
+    schema: RAW
+
+    tables:
+      - name: customers
+      - name: orders
+      - name: order_items
+      - name: payments
+      - name: products
+      - name: sellers
+      - name: reviews
+      - name: geolocation
+      - name: category_translation
